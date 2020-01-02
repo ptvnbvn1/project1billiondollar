@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+#header {
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.24);
+  width: 100%;
+  height: 97px;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  height: 100%;
+}
+
+.header-row {
+  height: 100%;
+}
+
+#header-left {
+  line-height: 92px;
+}
+
+#header-center > #top-menu > #navbar > ul {
+  display: inline;
+}
+
+#top-menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#header-center > #top-menu > #navbar > ul > li {
+  display: block;
+  float: left;
+  padding: 0 10px;
+  color: #1c1c1c;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#header-right {
+  padding-right: 0px;
+}
+
+.floatR {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#search, .language, .get_in_touch {
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#search {
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.language {
+  background-color: #e4e4e4;
+}
+
+.get_in_touch {
+  background-color: #8cc63f;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.logo {
+  width: 200px;
+  height: 75px;
+}
+
+@media screen and (min-width: 992px){
+  #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+  }
+}
