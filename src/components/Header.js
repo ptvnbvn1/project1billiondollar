@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`container-fluid flex-it ${styles.headerContainer}`}>
-        <div className="row header-row">
+        <div className={`row ${styles.headerRow}`}>
           <div className={`col-md-3 ${styles.headerLeft}`}>
             <a href="index.html" className={styles.logo}>
               <img
