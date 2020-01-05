@@ -5,67 +5,66 @@ import styles from "./Footer.module.scss";
 export default function Footer() {
   return (
     <footer className={styles.footerContainer}>
-      <div className={`row ${styles.content}`}>
+      <div className={`row inViewportAni animated fadeInUp ${styles.content}`}>
         <div className="col-3">
-         <p>
+         <p className={styles.title}>
          LINK SOLUTIONS
          </p>
-         <p>
+         <p className={styles.strongText}>
          Peder Skrams Vej 11
          </p>
-         <p>
+         <p className={`${styles.strongText} ${styles.description}`}>
          5220 Odense SØ, Denmark
          </p>
-         <p>
-         Phone: +45 6610 2033
-         </p>
-         <a>
+         <span className={styles.telephoneNumber}>Phone:</span><span> +45 6610 2033</span>
+         <br/>
+         <a className={styles.mail} href="www">
          info@linksolutions.dk
          </a>
          <br />
-         <a>
+         <a className={styles.mail} href="www">
          order@linksolutions.dk
          </a>
-         <p>
+         <p className={styles.cvr}>
          CVR: DK10607647
          </p>
         </div>
         <div className="col-3"></div>
-        <div className="col-3">
-          <p>PRODUCTS</p>
+        <div className={`col-3 inViewportAni animated fadeInUp ${styles.product}`}>
+          <p className={styles.title}>PRODUCTS</p>
           <p>
-            <a>WM Heatshrinkable</a>
+            <a href="www">WM Heatshrinkable</a>
           </p>
           <p>
-            <a>Wiremarkers</a>
+            <a href="www">Wiremarkers</a>
           </p>
           <p>
-            <a>Cable Markers</a>
+            <a href="www">Cable Markers</a>
           </p>
           <p>
-           <a>MTX</a>
+           <a href="www">MTX</a>
           </p>
           <p>
-            <a>Wrap-arounds</a>
+            <a href="www">Wrap-arounds</a>
           </p>
           <p>
-            <a>Printers, Ribbons & software</a>
+            <a href="www">Printers, Ribbons & software</a>
           </p>
           <p>
-            <a>Raised Panel Plates LSPP</a>
+            <a href="www">Raised Panel Plates LSPP</a>
           </p>
           <p>
-            <a>Continuous Printable Sleeves</a>
+            <a href="www">Continuous Printable Sleeves</a>
           </p>
           <p>
-            <a>In & Out Door Vinyl</a>
+            <a href="www">In & Out Door Vinyl</a>
           </p>
         </div>
-        <div className="col-3">
-          <p>QUICKLINKS</p>
-          <p><a>Network</a></p>
-          <p><a>Profile</a></p>
-          <p><a>Contact</a></p>
+        <div className={`col-3 inViewportAni animated fadeInUp ${styles.product} `}>
+          <p className={styles.title}>QUICKLINKS</p>
+          <p><a href="www">Network</a></p>
+          <p><a href="www">Profile</a></p>
+          <p><a href="www">Contact</a></p>
         </div>
       </div>
     </footer>
