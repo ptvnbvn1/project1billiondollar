@@ -1,0 +1,1 @@
+export const iconPath = iconName => `components/icon/icons/${iconName}.svg`
