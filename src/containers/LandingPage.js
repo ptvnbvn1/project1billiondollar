@@ -10,7 +10,7 @@ export default function LandingPage() {
     <>
       <Header />
       <div className={styles.container}>
-      <Content />
+        <Content />
       </div>
       <Footer />
     </>
