@@ -1,0 +1,60 @@
+.footerContainer {
+  height: 425px;
+  width: 100%;
+  background: #001f3b;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0px;
+  color: white;
+}
+
+.content {
+  padding: 60px 0 40px;
+  margin: 0 5%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.strongText {
+  font-size: 20px;
+  color: #b4eaff;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.telephoneNumber {
+  color: #b4eaff;
+  margin-top: 30px;
+}
+
+.description {
+  margin-bottom: 25px;
+}
+
+.mail {
+  color: #00adef;
+}
+
+.cvr {
+  margin-top: 25px;
+  color: #b4eaff;
+}
+
+.product {
+  p > a {
+    color: #b4eaff;
+  }
+
+  p > a:hover {
+    color: rgb(66, 203, 255);
+  }
+}
